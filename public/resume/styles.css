@@ -1,0 +1,168 @@
+@page {
+    width: 595;
+    height: 842;
+}
+
+.wrapper {
+    width: 595;
+    height: 842;
+}
+
+body {
+    margin: 0;
+}
+
+p, b {
+    margin: 0;
+    font-size: 12;
+    font-family: 'Lato', sans-serif;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.experienceRow {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 8;
+}
+
+.leftExperienceWrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 16;
+    width: 15vw;
+}
+.rightExperienceWrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.centeredColumn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.centeredRow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.spacedRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image {
+    height: auto;
+    width: 20vw;
+    border-radius: 100%;
+}
+
+.icon {
+    width: 35;
+    margin-right: 8;
+}
+
+.leftSide {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+    width: 25vw;
+    padding: 16;
+}
+
+.contactInfoItemWrapper {
+    margin-top: 8;
+    margin-bottom: 8;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75vw;
+    padding: 16;
+}
+
+.title {
+    letter-spacing: 0.5mm;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45;
+    font-weight: 500;
+}
+
+.subTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28;
+    font-weight: 400;
+}
+
+.smallTitleWhite {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22;
+    font-weight: 400;
+}
+
+.white {
+    color: white;
+    font-size: 16;
+}
+
+.whiteSmall {
+    color: white;
+    font-size: 12;
+}
+
+.skillText {
+    color: white;
+    font-size: 18;
+    margin-top: 8;
+    margin-bottom: 8;
+}
+
+.hrWhite {
+    width: 100%;
+    margin-bottom: 8;
+    border: 1px solid white;
+}
+
+.hrBlack {
+    width: 100%;
+    margin-bottom: 8;
+    border: 1px solid black;
+}
+
+.experienceHeaderText {
+    font-size: 16;
+    margin-top: 4;
+    margin-bottom: 4;
+}
+
+.experienceBodyText {
+    margin-top: 4;
+    margin-bottom: 4;
+}
