@@ -1,9 +1,13 @@
 <main>
-
     <head>
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,500,600,700&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script type="module">
+            import {intro} from "../constants/intro.js";
+
+            document.getElementById('intro').innerHTML = `<p style=\"padding-top: 16px;\">${intro}</p>`
+        </script>
     </head>
     <page class="centeredRow wrapper">
         <div class="leftSide">
@@ -19,6 +23,7 @@
                 <p class="skillText">TypeScript</p>
                 <p class="skillText">React-Native</p>
                 <p class="skillText">React</p>
+                <p class="skillText">NextJS</p>
                 <p class="skillText">GraphQL</p>
                 <p class="skillText">Apollo Client</p>
                 <p class="skillText">NodeJS</p>
@@ -32,7 +37,7 @@
             <div>
                 <div class="contactInfoItemWrapper">
                     <img class="icon" src="feather/map-pin.svg" />
-                    <p class="whiteSmall">Des Moines, Iowa</p>
+                    <p class="whiteSmall">Portland, OR</p>
                 </div>
                 <div class="contactInfoItemWrapper">
                     <img class="icon" src="feather/mail.svg" />
@@ -55,15 +60,7 @@
         <div class="rightSide">
             <p class="title">DOMINIC SHERMAN</b>
                 <p class="subTitle">FULL-STACK SOFTWARE ENGINEER</p>
-                <p style="padding-top: 16;">
-                    A passionate, full-stack software developer with a love for learning and building applications from
-                    the ground up.
-                    Driven and disciplined with a desire to provide scalable, reusable, elegant solutions to complex
-                    problems.
-                    Places a high priority on code quality and refactoring, and strives to write code the best way the
-                    first time.
-                    Dedicated to learning new technologies and innovating to improve past, present, and future projects.
-                </p>
+                <p id="intro" />
                 <p class="subTitle" style="margin-top: 24;">EXPERIENCE</p>
                 <hr noshade class="hrBlack" />
                 <div class="experienceRow">
@@ -72,11 +69,11 @@
                         <p class="experienceBodyText">May 2019 - Present</p>
                     </div>
                     <div class="rightExperienceWrapper">
-                        <p class="experienceHeaderText">React-Native Software Engineer</p>
+                        <p class="experienceHeaderText">Full Stack Software Engineer</p>
                         <div style="margin-top: 4;">
                             <p class="experienceBodyText">Core contributor to Hy-Vee's Aisles Online app, using React-Native, TypeScript, GraphQL, and Apollo Client.</p class="experienceBodyText">
-                            <p class="experienceBodyText">Maintained the app as it grew to 10k weekly users, >$1mm in weekly sales, and >99% crash-free rate within 6 months of the soft launch.</p class="experienceBodyText">
-                            <p class="experienceBodyText">Onboarding other teams and setting standards for React-Native, GraphQL, and TypeScript at Hy-Vee, as the Aisles Online app is the first product at Hy-Vee to use any of these tools.</p class="experienceBodyText">
+                            <p class="experienceBodyText">Maintaining and enhancing the React-Native mobile app and React web application.</p class="experienceBodyText">
+                            <p class="experienceBodyText">Building extensive, federated GraphQL servers to be consumed by multiple clients.</p class="experienceBodyText">
                         </div>
                     </div>
                 </div>
@@ -86,7 +83,7 @@
                         <p class="experienceBodyText">May 2018 - May 2019</p>
                     </div>
                     <div class="rightExperienceWrapper">
-                        <p class="experienceHeaderText">Software Development Intern</p>
+                        <p class="experienceHeaderText">Software Engineer Intern</p>
                         <div style="margin-top: 4;">
                             <p class="experienceBodyText">Core contributor to Hy-Vee's first React-Native mobile app as it was built from the ground up.</p class="experienceBodyText">
                             <p class="experienceBodyText">Learning JavaScript, React-Native, GraphQL, REST, and Jest unit testing.</p class="experienceBodyText">

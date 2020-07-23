@@ -2,11 +2,11 @@ import {Box, Flex, SimpleGrid, useColorMode} from '@chakra-ui/core';
 import Header from '../components/Header';
 import React, {useEffect} from 'react';
 import {Body, BodyTitleLink} from '../components/Generic';
-import {projects} from '../constants/projects';
+import {projects} from '../public/constants/projects';
 import {ProjectLink} from '../components/ProjectLink';
-import {intro} from '../constants/intro';
+import {intro} from '../public/constants/intro';
 import {ExperienceItem} from '../components/ExperienceItem';
-import {experiences} from '../constants/experience';
+import {experiences} from '../public/constants/experience';
 import {Skill} from '../components/Skill';
 import {
     APOLLO_CLIENT,
@@ -18,9 +18,9 @@ import {
     REACT_NATIVE,
     REDUX,
     TYPESCRIPT
-} from '../constants/icons';
+} from '../public/constants/icons';
 import NavBar from '../components/NavBar';
-import {ABOUT_ME, EXPERIENCE, TECHNOLOGIES, PROJECTS} from '../constants/links';
+import {ABOUT_ME, EXPERIENCE, TECHNOLOGIES, PROJECTS} from '../public/constants/links';
 
 const Home = () => {
     return (

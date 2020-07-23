@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {LabelToIcon} from '../constants/icons';
+import {LabelToIcon} from '../public/constants/icons';
 import {Image} from '@chakra-ui/core';
 
 export const LabeledIcon = ({label}) =>

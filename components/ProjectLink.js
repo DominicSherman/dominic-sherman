@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {LabelToIcon} from '../constants/icons';
+import {LabelToIcon} from '../public/constants/icons';
 
 import {Selectable, Small, TextWrapper, TitleSmall} from './Generic';
 import {Box, Image} from '@chakra-ui/core';

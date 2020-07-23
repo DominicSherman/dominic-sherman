@@ -16,10 +16,10 @@ import {
 } from '@chakra-ui/core';
 import {SelectableIcon} from './SelectableIcon';
 import {GitHub, Linkedin, Mail, Menu} from 'react-feather';
-import {EMAIL_LINK, GITHUB_LINK, LINKED_IN_LINK} from '../constants/urls';
+import {EMAIL_LINK, GITHUB_LINK, LINKED_IN_LINK} from '../public/constants/urls';
 import ColorToggle from './ColorToggle';
-import {NAV_LINKS} from '../constants/links';
-import {backgroundColor, GRAY_COLOR} from '../constants/theme-styles';
+import {NAV_LINKS} from '../public/constants/links';
+import {backgroundColor, GRAY_COLOR} from '../public/constants/theme-styles';
 
 export const NAV_HEIGHT = 80;
 

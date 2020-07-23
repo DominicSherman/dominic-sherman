@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Selectable} from './Generic';
 import {Icon} from '@chakra-ui/core';
-import {GRAY_COLOR} from '../constants/theme-styles';
+import {GRAY_COLOR} from '../public/constants/theme-styles';
 
 export const SelectableIcon = ({href, ComponentType}) =>
     <Selectable
